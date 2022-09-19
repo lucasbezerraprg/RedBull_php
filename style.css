@@ -1,0 +1,121 @@
+body {
+  background-color: whitesmoke;
+}
+
+#cabecalho {
+  display: flex;
+  justify-content: space-around;
+  gap: 630px;
+  border-bottom: 2px solid red;
+  padding-bottom: 15px;
+}
+
+#logoRedBull {
+  display: flex;
+  align-items: left;
+  width: 40px;
+  height: 60px;
+  padding-top: 10px;
+}
+
+#menuTopo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 100px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#menuTopo a {
+  text-decoration: none;
+  color: red;
+}
+
+#menuSite {
+  display: flex;
+  justify-content: space-around;
+}
+
+#menuSite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#comentariosMenu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+}
+
+#textoMenu a {
+  text-decoration: none;
+}
+
+#carroRedBull {
+  height: 400px;
+  width: 650px;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+#textoMenu {
+  display: flex;
+  gap: 180px;
+  margin-top: 30px;
+}
+#textoMenu a {
+  color: red;
+}
+
+#rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid red;
+  padding: 15px;
+}
+
+#fotoMax{
+  height: 400px;
+  width: 650px;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+#fotoPerez{
+  height: 400px;
+  width: 650px;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#content2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragrafos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nome1{
+    text-decoration: none;
+    color: red;
+}
